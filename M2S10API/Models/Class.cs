@@ -20,7 +20,7 @@ namespace M2S10API.Models
         public DateTime? EndDate { get; set;}
 
         [Column("Carga Horária")]
-        public int? Worload { get; set; }
+        public int? Workload { get; set; }
     
         private Instructor Instructor { get; set; }
         private Course Course { get; set; }

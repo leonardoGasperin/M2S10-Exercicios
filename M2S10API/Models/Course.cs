@@ -18,6 +18,6 @@ namespace M2S10API.Models
         public int? Workload { get; set; }
 
         [Column("Valor")]
-        public int Cost { get; set; }
+        public decimal Cost { get; set; }
     }
 }
