@@ -24,6 +24,5 @@ namespace M2S10API.Models
     
         private Instructor Instructor { get; set; }
         private Course Course { get; set; }
-        //...
     }
 }
